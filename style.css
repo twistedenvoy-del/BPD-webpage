@@ -14,12 +14,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: var(--background-color);
 }
 
 .hero {
+    background: linear-gradient(135deg, #2C5F7C, #1a3a4a);
     text-align: center;
     padding: 60px 0;
     background-color: var(--primary-color);
@@ -58,6 +59,25 @@ h1 {
      transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.extra-info {
+    display: none;
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+.show-more-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.show-more-btn:hover {
+    background-color: var(--secondary-color);
+}
 .card-section {
     padding: 40px 20px;
 }
