@@ -6,7 +6,7 @@ showMoreBtns.forEach(btn => {
         const extraInfo = card.querySelector(".extra-info");
         
         if (extraInfo.style.display === "none") {
-            extraInfo.style.display = "block";
+            extraInfo.style.display !== "block";
             this.textContent = "Show Less";
         } else {
             extraInfo.style.display = "none";
