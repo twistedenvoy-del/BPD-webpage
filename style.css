@@ -10,7 +10,7 @@
     --text-color: #333333;
     --background-color: #D9E2E8;;
     --card-background: #fff;
-    --shadow: rgba(0, 0, 0, 0.1);
+    --shadow: rgba(0, 0, 0, 0.3);
 }
 
 body {
